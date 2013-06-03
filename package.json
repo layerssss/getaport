@@ -1,0 +1,12 @@
+{
+  "name": "getaport",
+  "version": "0.0.1",
+  "description": "get a free port, now!",
+  "main": "getaport.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Michael Yin",
+  "license": "BSD"
+}
