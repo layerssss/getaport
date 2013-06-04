@@ -1,11 +1,13 @@
+/*jslint node: true, white: true, indent: 2 */
 var net = require('net');
-module.exports = function(host, cb){
+module.exports = function(host, cb) {
   "use strict";
   if(host.constructor===Function){
     cb = host;
     host = '0.0.0.0';
   }
   var server = net.createServer(function(){
+    return;
   });
   server.on('error', cb);
   server.listen(0, host, function(e){
